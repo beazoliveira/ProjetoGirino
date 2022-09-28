@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: #000000;
+     color: #FFFFFF;
+
+}
+section{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+footer{
+    background-color:#cc4444;
+    padding: 20px;
+}
+.img-topo{
+    width: 100%;
+    height: 40%;
+    min-height: 350px;
+    background-image: url(../image/gatinho.jpg);
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    
+}
+nav {
+
+        left: 0;
+        background-color: #cc4444;
+        
+    }
+nav li {
+        display: inline-flex; 
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 22px;
+        
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: #FFFFFF;   
+    }
+.bia {
+    margin-top: 150px;
+}
+
